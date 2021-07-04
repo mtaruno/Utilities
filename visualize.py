@@ -21,7 +21,7 @@ print("Great! Enabled axis to bar function")
 import plotly.figure_factory as ff
 
 def distplot(lengths, title = "Distplot", 
-    color = 'rgb(0, 200, 200)'):
+    color = 'rgb(0, 200, 200)'): # cyan like default color
     hist_data = [lengths]
     group_labels = ['distplot'] # name of the dataset
     fig = ff.create_distplot(hist_data, 
