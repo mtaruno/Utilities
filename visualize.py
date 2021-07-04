@@ -17,3 +17,16 @@ def bar(x, y, color ="#FFD700", title = "Bar Plot"):
     fig.show()
 
 print("Great! Enabled axis to bar function")
+
+import plotly.figure_factory as ff
+
+def distplot(lengths, title = "Distplot", 
+    color = 'rgb(0, 200, 200)'):
+    hist_data = [lengths]
+    group_labels = ['distplot'] # name of the dataset
+    fig = ff.create_distplot(hist_data, 
+    group_labels, colors = [color])
+    fig.update_layout(title_text=title)
+    fig.show()
+
+print("Great! Enabled axis to distplot function")
