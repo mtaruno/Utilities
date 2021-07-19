@@ -11,9 +11,9 @@ Matthew Taruno's useful utility functions.
 Testing Tips:
 
 Do
-    coverage run test.py
+    ```coverage run test.py```
 to see coverage of the visualize code.
 
 Do
-    coverage html
+    ```coverage html```
 after running the previous command to see a report of what was covered.
