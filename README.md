@@ -7,7 +7,6 @@ Matthew Taruno's useful utility functions.
 * Data Visualizations
 * Creating a Data Dashboard
 
-
 Testing Tips:
 
 Do
