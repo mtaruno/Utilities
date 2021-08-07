@@ -2,7 +2,7 @@
 
 Matthew Taruno's useful utility functions.
 
-* NLP
+* Machine Learning from Scratch
 * Finance
 * Data Visualizations
 * Creating a Data Dashboard
